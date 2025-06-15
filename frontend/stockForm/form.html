@@ -3,29 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stock Form</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css" />
   </head>
-
   <body>
-    <div class="login-box">
+    <div class="container">
+      <div class="title">Stock Form</div>
       <form action="">
-        <h2>Stock</h2>
-        <div class="description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat error
-          incidunt, aperiam voluptatibus cum ab, ducimus repellat dolorum
-          laudantium laborum voluptatum quaerat illo corrupti ea
-        </div>
+        <div class="product_details">
+          <div class="input_box">
+            <span class="details">Name of product</span>
+            <input type="text" placeholder="Enter the name..." />
+          </div>
 
-        <div class="input-box">
-          <span class="icon"></span>
-          <input id="stockName" type="text" />
-          <label for="stockName">Name</label>
-        </div>
+          <div class="input_box">
+            <span class="details">Weight</span>
+            <input type="number" placeholder="ml or g" />
+          </div>
 
-        <div class="input-box">
-          <span class="icon"></span>
-          <input id="stockQuantity" type="number" />
-          <label for="stockQuantity">Quantity</label>
+          <div class="input_box">
+            <span class="details">Type of product</span>
+            <input type="text" placeholder="Lozenge, pill ...." />
+          </div>
+
+          <div class="input_box">
+            <span class="details">Batch Number</span>
+            <input type="text" placeholder="Enter batch number..." />
+          </div>
+
+          <div class="input_box">
+            <span class="details">Expiry Date</span>
+            <input type="date" />
+          </div>
+
+          <div class="input_box">
+            <span class="details">Quantity in Stock</span>
+            <input type="number" placeholder="Enter quantity..." />
+          </div>
+
+          <div class="input_box">
+            <span class="details">Unit Price</span>
+            <input type="number" step="0.01" placeholder="Enter price..." />
+          </div>
+
+          <div class="input_box">
+            <span class="details">Supplier Name</span>
+            <input type="text" placeholder="Enter supplier..." />
+          </div>
+
+          <div class="input_box">
+            <span class="details">Date Received</span>
+            <input type="date" />
+          </div>
+
+          <div class="input_box">
+            <span class="details">Storage Location</span>
+            <input type="text" placeholder="Shelf, fridge, etc." />
+          </div>
+
+          <div class="input_box">
+            <span class="details">Reorder Level</span>
+            <input type="number" placeholder="Minimum quantity..." />
+          </div>
+
+          <div class="input_box">
+            <span class="details">Remarks/Notes</span>
+            <input type="text" placeholder="Any comments..." />
+          </div>
+        </div>
+        <div class="button">
+          <input type="button" value="Submit" />
         </div>
       </form>
     </div>

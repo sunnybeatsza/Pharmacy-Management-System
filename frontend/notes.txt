@@ -1,0 +1,6 @@
+1. Create a container for the form using a div tag. The class name should be container
+2. Create a div tag inside the container. The class name should be title
+3. Underneath the title div. Create a form tag.
+4. inside the form there should be div with a class name user_details.
+5. inside the div there should be another div with class name input_box
+6. inside the div create a span and class name will be details
