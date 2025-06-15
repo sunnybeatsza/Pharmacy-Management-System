@@ -4,3 +4,9 @@
 4. inside the form there should be div with a class name user_details.
 5. inside the div there should be another div with class name input_box
 6. inside the div create a span and class name will be details
+
+
+https://www.youtube.com/watch?v=dIUOWdwwZBw
+https://www.youtube.com/watch?v=okbByPWS1Xc&list=PLImJ3umGjxdDqTlZhQxXBeGij9Oa9Xjnj&index=1&t=149s
+
+https://css-tricks.com/almanac/properties/t/top-right-bottom-left/
