@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
         data[key] = value;
       });
 
-      fetch("backend-route", {
+      console.log(data);
+      fetch("http://localhost:3000/api/stock", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

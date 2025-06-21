@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Stock Form</title>
     <link rel="stylesheet" href="./form.css" />
   </head>
   <body>
     <div class="container">
       <div class="title">Stock Form</div>
-      <form action="" id="stockForm">
+      <form id="stockForm" autocomplete="off">
         <div class="product_details">
           <div class="input_box">
             <span class="details">Name of product</span>
@@ -22,7 +22,12 @@
 
           <div class="input_box">
             <span class="details">Weight</span>
-            <input type="number" placeholder="ml or g" name="productWeight" />
+            <input
+              type="number"
+              placeholder="ml or g"
+              name="productWeight"
+              required
+            />
           </div>
 
           <div class="input_box">
@@ -109,7 +114,6 @@
         </div>
       </form>
     </div>
-
     <script src="./form.js"></script>
   </body>
 </html>
