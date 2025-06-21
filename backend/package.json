@@ -1,0 +1,26 @@
+{
+  "name": "pharmacy-management-system",
+  "version": "1.0.0",
+  "description": "A business owner has a pharmacy that he wants to manage.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnybeatsza/Pharmacy-Management-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunnybeatsza/Pharmacy-Management-System/issues"
+  },
+  "homepage": "https://github.com/sunnybeatsza/Pharmacy-Management-System#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}

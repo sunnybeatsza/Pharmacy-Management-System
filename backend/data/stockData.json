@@ -1,0 +1,16 @@
+[
+  {
+    "productName": "Linctagon",
+    "productWeight": "150",
+    "productType": "Cough Syrup",
+    "batchNumber": "600968044533",
+    "expiryDate": "2025-12-31",
+    "quantity": "1",
+    "price": "455",
+    "supplier": "Nativa",
+    "date": "2025-06-21",
+    "storage": "Cabinet",
+    "orderLevel": "2",
+    "comments": "Clean pakaging"
+  }
+]
